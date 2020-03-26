@@ -1,0 +1,45 @@
+﻿body {
+	font-size: 0;
+}
+
+#container {
+	position: relative;
+	margin-top: 20px;
+}
+
+#messages {
+	position: relative;
+}
+.message {
+	display: block;
+	position: absolute;
+	width: 0;
+}
+.message-delay {
+	display: block;
+	position: absolute;
+	top: calc(20%);
+	height: 60%;
+}
+.message-send {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	height: 100%;
+}
+
+#axis-times {
+	position: absolute;
+}
+.axis-time {
+	position: absolute;
+	font-size: 16px;
+}
+
+#user-script-input {
+	width: 90vw;
+	height: 40vh;
+}
+#user-script-output, #infos {
+	font-size: 16px;
+}
