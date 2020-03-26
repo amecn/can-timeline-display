@@ -111,7 +111,8 @@ Some functions perform more checks than described here. All failed checks are er
 // m1 ready and sent at 0, length 55
 m(1, 0, 0, 55);
 // m2 ready at 30 and sent at 55, length 63
-m(2, 30, 55, 63);```
+m(2, 30, 55, 63);
+```
 
 ```js
 m(1, 0, 0, 55);
