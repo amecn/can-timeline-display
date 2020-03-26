@@ -118,25 +118,29 @@ m(1, 0, 0, 55);
 // this time m2 is ready just before m1 finishes being sent
 m(2, 50, 55, 63);
 // fix labels 50 and 55 overlapping by moving 55 down
-moveTimeY(55, 15);```
+moveTimeY(55, 15);
+```
 
 ```js
 m(1, 0, 0, 55);
 // this time m2 is ready just before m1 finishes being sent
 m(2, 50, 55, 63);
 // fix labels 50 and 55 overlapping by moving 55 down
-moveTimeY(55, 15);```
+moveTimeY(55, 15);
+```
 
 ```js
 // this time m1 and m2 are sent as soon as they're ready, at 2500 and 2600
 m(1, 2500, 2500, 55);
 m(2, 2600, 2600, 63);
 // change origin to where the messages are
-timeOrigin(2500 );```
+timeOrigin(2500 );
+```
 
 ```js
 // this time m1 and m2 are very far apart
 m(1, 0, 0, 55);
 m(2, 2500, 2500, 63);
 // change scale to see the two messages
-timeScale(1/5);```
+timeScale(1/5);
+```
